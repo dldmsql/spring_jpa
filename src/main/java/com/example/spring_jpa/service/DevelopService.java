@@ -57,4 +57,8 @@ public class DevelopService {
         insuranceRepository.save(insurance);
         return insurance;
     }
+
+    public List<Insurance> readAllInsurances() {
+        return insuranceRepository.findByInsurancePermitted(InsurancePermitted.approve);
+    }
 }

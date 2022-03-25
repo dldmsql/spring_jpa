@@ -16,6 +16,10 @@ import java.util.List;
 public class DevelopController {
     private final DevelopService developService;
 
+    @GetMapping
+    public ResponseEntity<List<Insurance>> readAllInsurances(){
+        return ResponseEntity.ok(developService.readAllInsurances());
+    }
     @PostMapping("/insurance")
     public ResponseEntity createInsurance(@RequestBody InsuranceCreationRequest request){
             return ResponseEntity.ok(developService.createInsurance(request));
