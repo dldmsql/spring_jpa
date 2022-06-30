@@ -3,6 +3,7 @@ package com.example.spring_jpa.entity;
 import com.fasterxml.jackson.annotation.JsonCreator;
 
 public enum EmployeeDepart {
+
     SALES, DEVELOP, REWARD;
 
     @JsonCreator
