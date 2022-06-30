@@ -13,3 +13,11 @@ spring.jpa.show-sql=true
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 #spring.jpa.hibernate.ddl-auto=update
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+
+# DB
+ cd C:\Program Files\MySQL\MySQL Server 8.0\bin
+ mysql -u root -p
+ 1234
+ show databases;
+ use insurance_test;
