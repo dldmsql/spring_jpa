@@ -1,4 +1,4 @@
-package com.example.spring_jpa;
+package com.example.spring_jpa.security;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;

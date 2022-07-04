@@ -1,4 +1,4 @@
-package com.example.spring_jpa;
+package com.example.spring_jpa.security;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;

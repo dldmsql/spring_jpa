@@ -1,4 +1,4 @@
-package com.example.spring_jpa;
+package com.example.spring_jpa.security;
 
 import java.util.Collections;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

@@ -1,8 +1,7 @@
-package com.example.spring_jpa;
+package com.example.spring_jpa.security;
 
 import java.io.IOException;
 import java.util.Arrays;
-import javax.servlet.Filter;
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
