@@ -1,4 +1,7 @@
-# spring_jpa
+## 프로젝트 소개
 
-spring 과 JPA, MySQL을 이용해 간단한 CRUD 연습하는 레포지토리
-+ 간편 로그인 연습 중
+JAVA, Spring boot 기반 RESTful API 개발 연습용 프로젝트
+
++ REST API 개발
++ JPA 적용
++ Oauth 적용
